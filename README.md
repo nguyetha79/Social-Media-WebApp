@@ -42,6 +42,6 @@ This document outlines the creation of a complete social media application using
 
 ## Citations
 
-The projects in this repository were inspired by, or based on, the following resource:
+The project in this repository was inspired by, or based on, the following resource:
 
 1. `ed-roh`
