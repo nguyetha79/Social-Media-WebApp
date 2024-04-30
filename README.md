@@ -27,7 +27,7 @@ This document outlines the creation of a complete social media application using
     - *Node.js*: JavaScript runtime environment for server-side development.
     - *Express.js*: Web framework for building APIs with Node.js.
     - *Multer*: Middleware for handling file uploads in Express.js.
-    - *MongoDB*: Storing workout data.
+    - *MongoDB*: Storing user and post data.
     - *JWT*: Providing secure authentication.
 
 - **Deployment**: The app is deployed on the following website: 
@@ -42,6 +42,6 @@ This document outlines the creation of a complete social media application using
 
 ## Citations
 
-The projects in this repository were inspired by, or based on, the following resource:
+The project in this repository was inspired by, or based on, the following resource:
 
 1. `ed-roh`
