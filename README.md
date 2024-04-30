@@ -30,8 +30,6 @@ This document outlines the creation of a complete social media application using
     - *MongoDB*: Storing user and post data.
     - *JWT*: Providing secure authentication.
 
-- **Deployment**: The app is deployed on the following website: 
-
 ## Getting Started
 1. Clone this repository.
 2. Install dependencies using `npm install`.
