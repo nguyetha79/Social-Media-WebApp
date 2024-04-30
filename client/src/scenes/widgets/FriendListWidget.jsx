@@ -11,23 +11,24 @@ const FriendListWidget = ({ userId }) => {
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
 
-  useEffect(() => {
-    const getFriends = async () => {
-      const response = await fetch(
-        `https://social-media-webapp2.onrender.com/users/${userId}/friends`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
+  const getFriends = async () => {
+    const response = await fetch(
+      `https://social-media-webapp2.onrender.com/users/${userId}/friends`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
 
-      const data = await response.json();
-      dispatch(setFriends({ friends: data }));
-    };
+    const data = await response.json();
+    dispatch(setFriends({ friends: data }));
+  };
+
+  useEffect(() => {
     getFriends();
-  }, []);
+  }, []);  // eslint-disable-next-line react-hooks/exhaustive-deps
 
   return (
     <WidgetWrapper>
