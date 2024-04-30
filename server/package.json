@@ -19,7 +19,8 @@
   "type": "module",
   "devDependencies": {},
   "scripts": {
-    "server" :"nodemon server.js"
+    "server" :"nodemon server.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
