@@ -19,7 +19,7 @@ const AdvertWidget = () => {
       <img
         width="100%"
         height="auto"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src="https://social-media-webapp2.onrender.com/assets/info4.jpeg"
         alt="advert"
         style={{ borderRadius: "0.7rem", margin: "0.75rem 0" }}
       />
