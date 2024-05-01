@@ -30,13 +30,8 @@ This document outlines the creation of a complete social media application using
     - *MongoDB*: Storing user and post data.
     - *JWT*: Providing secure authentication.
 
-## Getting Started
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Run the app locally:
-    - frontend: `npm run start`.
-    - backend: `npm run server`.
-4. Access the app in your browser at localhost:3000.
+## Deployment
+The web app is deployed on the following website: https://sociopedia-web.netlify.app/
 
 ## Citations
 
