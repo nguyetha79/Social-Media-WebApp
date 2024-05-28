@@ -32,9 +32,3 @@ This document outlines the creation of a complete social media application using
 
 ## Deployment
 The web app is deployed on the following website: https://sociopedia-web.netlify.app/
-
-## Citations
-
-The project in this repository was inspired by, or based on, the following resource:
-
-1. `ed-roh`
